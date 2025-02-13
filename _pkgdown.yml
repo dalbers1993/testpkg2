@@ -2,3 +2,14 @@ url: https://dalbers1993.github.io/testpkg2/
 template:
   bootstrap: 5
 
+
+navbar:
+  structure:
+    left:  [home, functions, reference]
+    right: [github]
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    introduction:
+      text: Introduction

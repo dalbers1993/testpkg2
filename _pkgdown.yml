@@ -10,6 +10,6 @@ navbar:
   components:
     home:
       icon: fas fa-home fa-lg
-      href: index.html
-    introduction:
-      text: Introduction
+      href: README.md
+    functions:
+      text: Functions

@@ -13,4 +13,4 @@ navbar:
       href: README.md
     functions:
       text: Functions
-      href: articles/functions.html
+      href: articles/functions.qmd

@@ -2,9 +2,3 @@ url: https://dalbers1993.github.io/testpkg2/
 template:
   bootstrap: 5
 
-reference:
-- title: Functions
-  desc: >
-    Was hier passiert
-  content:
-    hello_world

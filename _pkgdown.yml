@@ -13,4 +13,8 @@ navbar:
       href: README.md
     functions:
       text: Functions
+      href: articles/functions.Rmd
+    reference:
+      text: Ferrenzen
       href: articles/functions.html
+

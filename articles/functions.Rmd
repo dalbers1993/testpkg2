@@ -1,0 +1,17 @@
+---
+title: "Functions"
+author: "Ich"
+date: "2025-02-14"
+output: html_document
+---
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+## Including Plots
+
+You can also embed plots, for example:
+

@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   functions: functions.html
-last_built: 2025-03-22T22:49Z
+last_built: 2025-03-22T22:51Z
 urls:
   reference: https://dalbers1993.github.io/testpkg2/reference
   article: https://dalbers1993.github.io/testpkg2/articles

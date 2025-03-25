@@ -17,4 +17,7 @@ navbar:
     reference:
       text: Ferrenzen
       href: articles/functions.html
+    test:
+      text: Testvignette
+      href: articles/testvignette.Rmd
 

@@ -5,13 +5,19 @@ template:
 
 navbar:
   structure:
-    left:  [home,test]
+    left:  [home,functions, examples, news]
     right: [github]
   components:
     home:
       icon: fas fa-home fa-lg
       href: README.md
+    functions:
+      text: Functions
+      href: articles/functions.html
     test:
       text: Testvignette
       href: articles/testvignette.html
+    news:
+      text: News
+
 

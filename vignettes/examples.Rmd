@@ -1,0 +1,37 @@
+---
+title: "examples"
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE}
+library(eRm)
+library(RMX)
+```
+
+## R Markdown
+
+For our example we will use the included dataset big5. It's simulated after a students survey of the BIG 5 (Openness [O], Conscienciousness [C], Extraversion [E], Agreeableness [A], and Neuroticism [N]). The scale comprises 21 items following the structure of the BFIK. The items were originally presented in German. See `?big5` for a translation and more details.
+
+Let's have a look at the Extraversion scale first.
+
+```{r cars}
+dat_extra = big5[, c(1, 6, 11, 16)]
+```
+
+First, we must estimate a model, in this case the Partial Credit Model. We will use the `eRm`-Package, however you could use one of the other available packages as well.
+
+```{r}
+res0 = PCM(dat_extra)
+```
+
+That's it, now we can use the `plotPIccc`-function to display the model graphically in many different ways. Let's have a look at the standard functionality first:
+
+```{r}
+plotPIccc(res0)
+```
+

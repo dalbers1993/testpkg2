@@ -5,7 +5,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, functions, reference, test]
+    left:  [home,test]
     right: [github]
   components:
     home:

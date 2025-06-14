@@ -2,22 +2,3 @@ url: https://dalbers1993.github.io/testpkg2/
 template:
   bootstrap: 5
 
-
-navbar:
-  structure:
-    left:  [home,functions, examples, news]
-    right: [github]
-  components:
-    home:
-      icon: fas fa-home fa-lg
-      href: README.md
-    examples:
-      text: Examples
-      href: articles/examples.html
-    test:
-      text: Testvignette
-      href: articles/testvignette.html
-    news:
-      text: News
-      href: articles/testvignette.html
-

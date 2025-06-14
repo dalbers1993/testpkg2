@@ -1,6 +1,9 @@
 url: https://dalbers1993.github.io/testpkg2/
+
 template:
   bootstrap: 5
+  light-switch: true
+
 navbar:
   structure:
     left:  [home, functions, reference, test]
@@ -9,8 +12,4 @@ navbar:
       icon: fas fa-home fa-lg
       href: index.html
     functions:
-      href: articles/testvignette.html
-    reference:
-      href: articles/examples.html
-    test:
       href: articles/testvignette.html

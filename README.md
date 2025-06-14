@@ -18,6 +18,10 @@ Could it be that we have used computers in a wrong way? Since Rasch retired from
 to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
 > <div style="text-align: right"> Erling B. Andersen^[alllssdos]</div>
 
+>Here is a simple footnote[^3]. With some additional text after it.Add commentMore actions
+
+[^3]: My reference.
+
 
 >_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.Add commentMore actions
 Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers

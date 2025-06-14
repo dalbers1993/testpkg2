@@ -36,13 +36,13 @@ for the diagram) but also many other functions, that can help visualize differen
 
 ## Features
 
-The `plotPIccc()` function supports two modi, either
+The `plotPIccc()` function supports two modi:
 
-* drawing one type of curve for a set of items (default); or
-* drawing several types for one item (by providing a vector of types).
+* drawing one type of curve for a set of items (default)
+* drawing several types for one item (by providing a vector of types)
 
 
-Additionally you can plot
+Additionally you can plot:
 
 * the test information function (TIF) for the entire set of items (`TIF=TRUE`)
 * the TIF of the selected items (`sTIF=TRUE`)
@@ -53,7 +53,7 @@ Additionally you can plot
 
 ## Usage
 
-Check out the <a href="articles/examples.html"> examples </a> for a more detailed description.
+Check out the <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> examples </a> for a more detailed description.
 
 ```r
 library(RMX)

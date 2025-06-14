@@ -6,14 +6,21 @@ template:
 
 navbar:
   structure:
-    left:  [home, functions, examples]
+    left:  [home, examples, reference, articles]
   components:
     home:
       icon: fas fa-home fa-lg
       href: index.html
-    functions:
-      text: Funcies
-      href: articles/testvignette.html
     examples:
       text: Some examples
       href: articles/examples.html
+    reference:
+      text: warum
+      href: reference/index.html
+    articles:
+      text: Articles
+      menu:
+      - text: "RMX/PIccc: An Extended Person–Item Map"
+        href: https://doi.org/10.3390/psych5030062
+        target: _blank
+

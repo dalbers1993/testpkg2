@@ -16,34 +16,9 @@ Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383â
 >_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
 Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
 to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
-> <div style="text-align: right"> Erling B. Andersen^[alllssdos]</div>
+> <cite style="text-align: right"> Erling B. Andersen[^1]</cite>
 
->Here is a simple footnote[^3]. With some additional text after it.Add commentMore actions
-
-[^3]: My reference.
-
-
->_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.Add commentMore actions
-Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
-to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
->
-> <div style="text-align: right"> <cite style="text-align: right"> Erling B. Andersen[^2] </cite></div>
-
-[^2]: Andersen, E.B. What Georg Rasch Would Have Thought about this Book. In _Rasch Models. Foundations, Recent Developments, and Applications_; 
-Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383â€“390.
-
-
->_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.Add commentMore actions
-Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
-to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
->
-> <div style="text-align: right"> <cite style="text-align: right"> Erling B. Andersen^[sdsd] </cite></div>
-
-# hmmm
-
-Here is a simple footnote[^3]. With some additional text after it.Add commentMore actions
-
-[^3]: My reference.
+[^1]: My reference.
 
 ## What is RMX?
 

@@ -1,4 +1,5 @@
-# RMX <img src="man/figures/logo.png" align="right" height="500"/>
+# RMX <img src="man/figures/logo.png" align="right" height="30"/>
+
 
 <!-- badges: start -->
 [![CRAN status](https://badges.cranchecks.info/flavor/release/RMX.svg)](https://cran.r-project.org/web/checks/check_results_RMX.html)

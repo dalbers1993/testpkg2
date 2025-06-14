@@ -68,4 +68,4 @@ res0 = PCM(dat_extra)                    # PCM
 plotPIccc(res0)
 ```
 
-<img src="man/figures/example.png" align="center" height="140"/>
+<img src="man/figures/example.png" align="center"/>

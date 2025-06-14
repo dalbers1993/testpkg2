@@ -1,27 +1,17 @@
 # RMX <img src="man/figures/logo.png" align="right" height="160"/>
 
->_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
-Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
-to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
-> <div style="text-align: right"> Erling B. Andersen</div>
-
->_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
-Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
-to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
->
-> <div style="text-align: right"> <cite style="text-align: right"> Erling B. Andersen </cite></div>
-
 <!-- badges: start -->
 [![CRAN status](https://badges.cranchecks.info/flavor/release/RMX.svg)](https://cran.r-project.org/web/checks/check_results_RMX.html)
 [![downloads](https://cranlogs.r-pkg.org/badges/RMX)](https://cran.r-project.org/package=RMX)
 <!-- badges: end -->
 
+>_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
+Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
+to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
+> <div style="text-align: right"> Erling B. Andersen[^1]</div>
 
-#Fussnote
-
-Here is a simple footnote[^1]. With some additional text after it.
-
-[^1]: My reference.
+[^1]: Andersen, E.B. What Georg Rasch Would Have Thought about this Book. In _Rasch Models. Foundations, Recent Developments, and Applications_; 
+Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383–390..
 
 ## What is RMX?
 

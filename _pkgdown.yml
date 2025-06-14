@@ -12,4 +12,5 @@ navbar:
       icon: fas fa-home fa-lg
       href: index.html
     functions:
+      text: Funcies
       href: articles/testvignette.html

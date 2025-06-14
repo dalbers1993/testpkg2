@@ -3,9 +3,4 @@ template:
   bootstrap: 5
 navbar:
   structure:
-    left:
-      - home
-      - reference
-      - articles
-      - news
-      - mytab  # ← This is your custom tab ID
+    left:  [home, functions, reference, test]

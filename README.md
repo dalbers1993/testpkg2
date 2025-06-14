@@ -1,4 +1,4 @@
-# RMX <img src="man/figures/logo.png" align="right" height="30"/>
+# RMX <img src="man/figures/logo.png" align="right" height="160"/>
 
 
 <!-- badges: start -->

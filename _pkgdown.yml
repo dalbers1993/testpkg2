@@ -6,7 +6,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, functions, reference, test]
+    left:  [home, functions, examples]
   components:
     home:
       icon: fas fa-home fa-lg
@@ -14,3 +14,6 @@ navbar:
     functions:
       text: Funcies
       href: articles/testvignette.html
+    examples:
+      text: Some examples
+      href: articles/examples.html

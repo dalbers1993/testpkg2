@@ -1,4 +1,11 @@
 url: https://dalbers1993.github.io/testpkg2/
 template:
   bootstrap: 5
-
+navbar:
+  structure:
+    left:
+      - home
+      - reference
+      - articles
+      - news
+      - mytab  # ← This is your custom tab ID

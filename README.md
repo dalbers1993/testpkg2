@@ -57,13 +57,14 @@ Check out the <a href="articles/examples.html"> examples </a> for a more detaile
 
 ```r
 library(RMX)
+
 data(big5)
 
 dat_extra = big5[,c(1,6,11,16)]
 
 library(eRm)
 
-res0 = PCM(dat_extra)                    # PCM
+res0 = PCM(dat_extra)
 
 plotPIccc(res0)
 ```

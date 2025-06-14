@@ -8,17 +8,10 @@
 >_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
 Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
 to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
-> <div style="text-align: right"> Erling B. Andersen[^1]</div>
+> -- Erling B. Andersen[^1] 
 
 [^1]: Andersen, E.B. What Georg Rasch Would Have Thought about this Book. In _Rasch Models. Foundations, Recent Developments, and Applications_; 
 Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383–390.
-
->_"But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this.
-Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers
-to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?"_
-> -- Erling B. Andersen[^1] 
-
-[^1]: My reference.
 
 ## What is RMX?
 

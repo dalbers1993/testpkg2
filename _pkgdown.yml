@@ -4,3 +4,13 @@ template:
 navbar:
   structure:
     left:  [home, functions, reference, test]
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    functions:
+      href: articles/testvignette.html
+    reference:
+      href: articles/examples.html
+    test:
+      href: articles/testvignette.html

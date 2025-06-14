@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   examples: examples.html
   testvignette: testvignette.html
-last_built: 2025-06-14T14:10Z
+last_built: 2025-06-14T14:22Z
 urls:
   reference: https://dalbers1993.github.io/testpkg2/reference
   article: https://dalbers1993.github.io/testpkg2/articles

@@ -11,9 +11,6 @@ navbar:
     home:
       icon: fas fa-home fa-lg
       href: README.md
-    functions:
-      text: Functions
-      href: articles/functions.html
     examples:
       text: Examples
       href: articles/examples.html

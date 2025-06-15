@@ -6,7 +6,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, examples, reference, articles, changelog]
+    left:  [home, examples, reference, articles, changelog, test]
   components:
     home:
       icon: fas fa-home fa-lg

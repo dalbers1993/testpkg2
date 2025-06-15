@@ -38,7 +38,6 @@ navbar:
       href: news/index.html
     gallery:
       text: Gallery
-      href: gallery.html
 
 reference:
 - title: Main functions

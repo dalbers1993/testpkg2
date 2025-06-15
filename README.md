@@ -53,7 +53,9 @@ Additionally you can plot:
 
 ## Usage
 
-Check out the <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> examples </a> for a more detailed description.
+Check out the <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> examples </a> for a more detailed description or go to the
+<a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> gallery </a> for a demonstration of most features of the `plotPIccc`
+function in every supported package.
 
 ```r
 library(RMX)

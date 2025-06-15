@@ -6,7 +6,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, examples, reference, articles, changelog, test]
+    left:  [home, examples, reference, articles, changelog, gallery]
   components:
     home:
       icon: fas fa-home fa-lg
@@ -36,6 +36,9 @@ navbar:
     changelog:
       text: Changelog
       href: news/index.html
+    gallery:
+      text: Gallery
+      href: gallery.html
 
 reference:
 - title: Main functions

@@ -1,5 +1,4 @@
-
-Version 0.1-6 (2024-09-07)
+# Version 0.1-6 (2024-09-07)
  * NEW: Option legoff (legend offset) for vertical positioning
         of legend.
  * NEW: Options TIFmax and SEmax for individual scaling
@@ -15,14 +14,14 @@ Version 0.1-6 (2024-09-07)
         6 = show y-axis labels of (s)TIF line.
 
 
-Version 0.1-5 (2024-04-15: https://osf.io/n9c5r/)
+# Version 0.1-5 (2024-04-15: https://osf.io/n9c5r/)
  * FIX: Person parameter histogram color bug when using dsel= 
         (thanks to Katharina Buß for reporting
  * NEW: breaks= argument for person parameter histogram.
  * NEW: Color scheme colorful1 (thanks to Katharina Buß)
 
 
-Version 0.1-4 (2024-04-06: https://osf.io/n9c5r/)
+# Version 0.1-4 (2024-04-06: https://osf.io/n9c5r/)
  * NEW: Select categories to draw (csel=)
  * NEW: Highlight selected categories (highlight=)
  * NEW: Attribute 'theta' in return object, 
@@ -35,36 +34,36 @@ Version 0.1-4 (2024-04-06: https://osf.io/n9c5r/)
         if RStudio: internal, else external window
 
 
-Version 0.1-3 (2023-08-31: https://osf.io/n9c5r/)
+# Version 0.1-3 (2023-08-31: https://osf.io/n9c5r/)
  * optical enhancements
  * minor bug fixes
 
 
-Version 0.1-2 (internal)
+# Version 0.1-2 (internal)
  * minor bug fix
 
 
-Version 0.1-1 (internal)
+# Version 0.1-1 (internal)
  * minor bug fixes
 
 
-Version 0.1-0 (internal)
+# Version 0.1-0 (internal)
  * minor bug fixes
 
 
-Version 0.0-3 (internal)
+# Version 0.0-3 (internal)
  * minor bug fixes
  * inclusion of big5.rda
 
 
-Version 0.0-2 (internal)
+# Version 0.0-2 (internal)
  * minor bug fixes
 
 
-Version 0.0-1 (internal)
+# Version 0.0-1 (internal)
  * mirt extractor improved
  * some minor bugs removed
 
 
-Version 0.0-0 (internal)
+# Version 0.0-0 (internal)
  * Hello world! 

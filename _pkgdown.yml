@@ -10,15 +10,25 @@ navbar:
   components:
     home:
       icon: fas fa-home fa-lg
+      aria-label: home
       href: index.html
     examples:
       text: Examples
-      href: articles/examples.html
+      menu:
+      - text: "The PIccc diagram"
+      - text: "Plotting the PIccc diagram"
+        href: articles/examples.html
+      - text: "Multidimensional PIccc"
+        href: articles/multidimensional.html
+      - text: ---
+      - text: "Response Dependency"
+      - text: ---
+      - text: "The PKMap"
     reference:
       text: Functions
       href: reference/index.html
     articles:
-      text: Articles
+      text: Papers
       menu:
       - text: "RMX/PIccc: An Extended Person–Item Map"
         href: https://doi.org/10.3390/psych5030062
@@ -26,4 +36,13 @@ navbar:
     changelog:
       text: Changelog
       href: news/index.html
+
+reference:
+- title: Main functions
+  contents:
+  - hello
+- title: Datasets
+  contents:
+  - hello
+
 

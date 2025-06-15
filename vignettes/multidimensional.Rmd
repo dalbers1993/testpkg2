@@ -1,0 +1,20 @@
+---
+title: "Plotting a multidimensional PIccc"
+
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Plotting a multidimensional PIccc}
+  %\VignetteEngine{knitr::knitr}
+  \usepackage[utf8]{inputenc}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# MIRT
+
+Let's talk about mirt baby.
+
+

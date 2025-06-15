@@ -13,7 +13,7 @@ to do complicated calculations and solving complicated equations over the power 
 [^1]: Andersen, E.B. What Georg Rasch Would Have Thought about this Book. In _Rasch Models. Foundations, Recent Developments, and Applications_; 
 Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383–390.
 
-## What is RMX?
+## Overview
 
 The `RMX` package is a tool to visualize the various aspects of Item-Response-Theory (IRT) models. The major feature is the `plotPIccc()`
 function which draws the so called "PIccc".
@@ -69,4 +69,4 @@ res0 = PCM(dat_extra)
 plotPIccc(res0)
 ```
 
-<img src="man/figures/example.png" align="center"/>
+<img alt="example" src="man/figures/example.png" align="center"/>

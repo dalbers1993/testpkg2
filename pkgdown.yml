@@ -3,8 +3,8 @@ pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   examples: examples.html
-  testvignette: testvignette.html
-last_built: 2025-06-15T00:53Z
+  multidimensional: multidimensional.html
+last_built: 2025-06-15T10:54Z
 urls:
   reference: https://dalbers1993.github.io/testpkg2/reference
   article: https://dalbers1993.github.io/testpkg2/articles

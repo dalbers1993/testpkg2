@@ -37,12 +37,23 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
-<li class="active nav-item"><a class="nav-link" href="index.html"><span class="fa fas fa-home fa-lg"></span></a></li>
-<li class="nav-item"><a class="nav-link" href="articles/examples.html">Examples</a></li>
+<li class="active nav-item"><a class="nav-link" href="index.html" aria-label="home"><span class="fa fas fa-home fa-lg"></span></a></li>
+<li class="nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-examples" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Examples</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-examples">
+<li><h6 class="dropdown-header" data-toc-skip>The PIccc diagram</h6></li>
+    <li><a class="dropdown-item" href="articles/examples.html">Plotting the PIccc diagram</a></li>
+    <li><a class="dropdown-item" href="articles/multidimensional.html">Multidimensional PIccc</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>Response Dependency</h6></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>The PKMap</h6></li>
+  </ul>
+</li>
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Functions</a></li>
 <li class="nav-item dropdown">
-  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-papers" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Papers</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-papers">
 <li><a class="external-link dropdown-item" href="https://doi.org/10.3390/psych5030062" target="_blank">RMX/PIccc: An Extended Person–Item Map</a></li>
   </ul>
 </li>
@@ -79,7 +90,7 @@
 <p><em>“But Rasch would have wondered about what happened to the use of graphs. And I think he would have been quite justified in this. Could it be that we have used computers in a wrong way? Since Rasch retired from active duty, have we emphasized the power of computers to do complicated calculations and solving complicated equations over the power of the computers to make nice and illustrative graphs?”</em> — Erling B. Andersen<a class="footnote-ref" tabindex="0" data-bs-toggle="popover" data-bs-content="&lt;p&gt;Andersen, E.B. What Georg Rasch Would Have Thought about this Book. In &lt;em&gt;Rasch Models. Foundations, Recent Developments, and Applications&lt;/em&gt;; Fischer, G.H., Molenaar, I.W., Eds.; Springer: New York, NY, USA, 1995; pp. 383–390.&lt;/p&gt;"><sup>1</sup></a></p>
 </blockquote>
 <div class="section level2">
-<h2 id="what-is-rmx">What is RMX?<a class="anchor" aria-label="anchor" href="#what-is-rmx"></a>
+<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
 <p>The <code>RMX</code> package is a tool to visualize the various aspects of Item-Response-Theory (IRT) models. The major feature is the <code><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc()</a></code> function which draws the so called “PIccc”.</p>
 <p>The PIccc is a modified version of the classical Person-Item Map (also called Wright-Map). In the classical PI map the person parameter distribution is contrasted with the item parameters. However, the item parameters are only shown as simple dots. Furthermore, it does not provide any information for models involving discrimination, guessing, or laziness parameters. The <code>plotPIccc</code> function overcomes these restrictions in several aspects. In its core the <code>plotPIccc</code> function shows the Person-Item confrontation using category characteristic curves (CCC, hence the name PIccc for the diagram) but also many other functions, that can help visualize different aspects of the IRT model.</p>
@@ -128,7 +139,7 @@
 <span><span class="va">res0</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/eRm/man/PCM.html" class="external-link">PCM</a></span><span class="op">(</span><span class="va">dat_extra</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/example.png" align="center"></p>
+<p><img alt="example" src="reference/figures/example.png" align="center"></p>
 </div>
 </div>
 

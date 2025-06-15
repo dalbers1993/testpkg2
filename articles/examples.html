@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>examples • testpkg2</title>
+<title>Plotting the PIccc diagram • testpkg2</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
 <link rel="icon" type="”image/svg+xml”" href="../favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
@@ -15,7 +15,7 @@
 <link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="../deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="examples">
+<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Plotting the PIccc diagram">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -34,12 +34,23 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
-<li class="nav-item"><a class="nav-link" href="../index.html"><span class="fa fas fa-home fa-lg"></span></a></li>
-<li class="active nav-item"><a class="nav-link" href="../articles/examples.html">Examples</a></li>
+<li class="nav-item"><a class="nav-link" href="../index.html" aria-label="home"><span class="fa fas fa-home fa-lg"></span></a></li>
+<li class="active nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-examples" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Examples</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-examples">
+<li><h6 class="dropdown-header" data-toc-skip>The PIccc diagram</h6></li>
+    <li><a class="dropdown-item" href="../articles/examples.html">Plotting the PIccc diagram</a></li>
+    <li><a class="dropdown-item" href="../articles/multidimensional.html">Multidimensional PIccc</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>Response Dependency</h6></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>The PKMap</h6></li>
+  </ul>
+</li>
 <li class="nav-item"><a class="nav-link" href="../reference/index.html">Functions</a></li>
 <li class="nav-item dropdown">
-  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-papers" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Papers</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-papers">
 <li><a class="external-link dropdown-item" href="https://doi.org/10.3390/psych5030062" target="_blank">RMX/PIccc: An Extended Person–Item Map</a></li>
   </ul>
 </li>
@@ -70,7 +81,7 @@
 
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
-      <img src="../logo.png" class="logo" alt=""><h1>examples</h1>
+      <img src="../logo.png" class="logo" alt=""><h1>Plotting the PIccc diagram</h1>
             
       
       <small class="dont-index">Source: <a href="https://github.com/dalbers1993/testpkg2/blob/master/vignettes/examples.Rmd" class="external-link"><code>vignettes/examples.Rmd</code></a></small>
@@ -86,7 +97,7 @@
 <p>plotPIccc-function oder plotPIccc function</p>
 </div>
 <div class="section level2">
-<h2 id="r-markdown">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<h2 id="data-preparation">Data preparation<a class="anchor" aria-label="anchor" href="#data-preparation"></a>
 </h2>
 <p>For our example we will use the included dataset big5. It’s simulated
 after a students survey of the BIG 5 (Openness [O], Conscienciousness
@@ -108,7 +119,7 @@ a look at the classical Person-Item Map, which can also be plotted by
 using <code>classical = TRUE</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, classical <span class="op">=</span> <span class="cn">TRUE</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
-<p><img src="examples_files/figure-html/unnamed-chunk-3-1.png" width="700"></p>
+<p><img src="examples_files/figure-html/unnamed-chunk-4-1.png" alt="classical pimap" width="700"></p>
 </div>
 <div class="section level2">
 <h2 id="one-function-and-several-items">One function and several items<a class="anchor" aria-label="anchor" href="#one-function-and-several-items"></a>
@@ -118,7 +129,7 @@ Characteristic Curves (CCCs) for all items. Let’s have a look at the
 standard functionality first:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
-<p><img src="examples_files/figure-html/unnamed-chunk-4-1.png" width="700"></p>
+<p><img src="examples_files/figure-html/unnamed-chunk-5-1.png" alt="default piccc" width="700"></p>
 <p>In this PIccc we find four areas of output: the top left segment
 shows the person parameter histogram. The green line is the test
 information function (TIF) and the red line the standard error (SE). The
@@ -136,7 +147,7 @@ different proportions.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, funwprop <span class="op">=</span> <span class="fl">1</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, funhprop <span class="op">=</span> <span class="fl">1</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
-<p><img src="examples_files/figure-html/figures-side-1.png" width="50%"><img src="examples_files/figure-html/figures-side-2.png" width="50%"></p>
+<p><img src="examples_files/figure-html/figures-side-1.png" alt="picc proportions" width="50%"><img src="examples_files/figure-html/figures-side-2.png" alt="picc proportions" width="50%"></p>
 <p>MEHR BEISPIELE UND DANN</p>
 </div>
 <div class="section level2">
@@ -151,7 +162,7 @@ possible function types.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, isel <span class="op">=</span> <span class="st">"Q6"</span>, type <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"CCC"</span>, <span class="st">"TCC"</span>, <span class="st">"IIF"</span>, <span class="st">"CIF"</span>, <span class="st">"BIF"</span><span class="op">)</span>,</span>
 <span>          extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
-<p><img src="examples_files/figure-html/unnamed-chunk-5-1.png" width="700"></p>
+<p><img src="examples_files/figure-html/unnamed-chunk-6-1.png" alt="one item" width="700"></p>
 <p>In this modus the output looks slightly different than before. The
 upper left segment is still composed of the person parameter histogram
 as well as the TIF and SE. However, because only a subset of items was

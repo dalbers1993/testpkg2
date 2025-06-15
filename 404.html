@@ -35,12 +35,23 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
-<li class="nav-item"><a class="nav-link" href="https://dalbers1993.github.io/testpkg2/index.html"><span class="fa fas fa-home fa-lg"></span></a></li>
-<li class="nav-item"><a class="nav-link" href="https://dalbers1993.github.io/testpkg2/articles/examples.html">Examples</a></li>
+<li class="nav-item"><a class="nav-link" href="https://dalbers1993.github.io/testpkg2/index.html" aria-label="home"><span class="fa fas fa-home fa-lg"></span></a></li>
+<li class="nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-examples" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Examples</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-examples">
+<li><h6 class="dropdown-header" data-toc-skip>The PIccc diagram</h6></li>
+    <li><a class="dropdown-item" href="https://dalbers1993.github.io/testpkg2/articles/examples.html">Plotting the PIccc diagram</a></li>
+    <li><a class="dropdown-item" href="https://dalbers1993.github.io/testpkg2/articles/multidimensional.html">Multidimensional PIccc</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>Response Dependency</h6></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header" data-toc-skip>The PKMap</h6></li>
+  </ul>
+</li>
 <li class="nav-item"><a class="nav-link" href="https://dalbers1993.github.io/testpkg2/reference/index.html">Functions</a></li>
 <li class="nav-item dropdown">
-  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-papers" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Papers</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-papers">
 <li><a class="external-link dropdown-item" href="https://doi.org/10.3390/psych5030062" target="_blank">RMX/PIccc: An Extended Person–Item Map</a></li>
   </ul>
 </li>

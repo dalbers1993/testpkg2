@@ -80,6 +80,12 @@
     
     
 <div class="section level2">
+<h2 id="todos">TODOS<a class="anchor" aria-label="anchor" href="#todos"></a>
+</h2>
+<p>we oder you, es ist bisschen beides drin grade</p>
+<p>plotPIccc-function oder plotPIccc function</p>
+</div>
+<div class="section level2">
 <h2 id="r-markdown">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
 </h2>
 <p>For our example we will use the included dataset big5. It’s simulated
@@ -97,12 +103,67 @@ one of the other available packages as well.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">res0</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/eRm/man/PCM.html" class="external-link">PCM</a></span><span class="op">(</span><span class="va">dat_extra</span><span class="op">)</span></span></code></pre></div>
 <p>That’s it, now we can use the <code>plotPIccc</code>-function to
-display the model graphically in many different ways. Let’s have a look
-at the standard functionality first:</p>
+display the model graphically in many different ways. First, let’s have
+a look at the classical Person-Item Map, which can also be plotted by
+using <code>classical = TRUE</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, classical <span class="op">=</span> <span class="cn">TRUE</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="examples_files/figure-html/unnamed-chunk-3-1.png" width="700"></p>
 </div>
-  </main>
+<div class="section level2">
+<h2 id="one-function-and-several-items">One function and several items<a class="anchor" aria-label="anchor" href="#one-function-and-several-items"></a>
+</h2>
+<p>By default, <code><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc()</a></code> draws the Category
+Characteristic Curves (CCCs) for all items. Let’s have a look at the
+standard functionality first:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="examples_files/figure-html/unnamed-chunk-4-1.png" width="700"></p>
+<p>In this PIccc we find four areas of output: the top left segment
+shows the person parameter histogram. The green line is the test
+information function (TIF) and the red line the standard error (SE). The
+top right segment holds the legend. The lower right segment shows the
+category response frequency barcharts of each item. The lower left
+segment is the most important segment. It shows the item-related
+functions, in this case the CCCs.</p>
+<p>The plot is highly customizable. For example, if you wish to just
+show the person parameter histogram and the CCCs, you can do so by
+setting <code>funwprop = 1</code>. Use 0 if you just want to show the
+barplots on the right. In the same way, you can just show the CCCs and
+barplots without the person parameters by using
+<code>funhprop = 1</code>. You can also use values between 0 and 1 for
+different proportions.</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, funwprop <span class="op">=</span> <span class="fl">1</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, funhprop <span class="op">=</span> <span class="fl">1</span>, extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="examples_files/figure-html/figures-side-1.png" width="50%"><img src="examples_files/figure-html/figures-side-2.png" width="50%"></p>
+<p>MEHR BEISPIELE UND DANN</p>
+</div>
+<div class="section level2">
+<h2 id="one-item-and-several-functions">One item and several functions<a class="anchor" aria-label="anchor" href="#one-item-and-several-functions"></a>
+</h2>
+<p>So far we have only looked at one of the two modi the
+<code>plotPIccc</code> function offers: plotting one type of curve for a
+set of items. In many cases however, a particular item merits a closer
+examination. You can do so by simply setting the <code>isel</code>
+argument to the desired item. Let’s look at item “Q6” and plot alle
+possible function types.</p>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/RMX/man/plotPIccc.html" class="external-link">plotPIccc</a></span><span class="op">(</span><span class="va">res0</span>, isel <span class="op">=</span> <span class="st">"Q6"</span>, type <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"CCC"</span>, <span class="st">"TCC"</span>, <span class="st">"IIF"</span>, <span class="st">"CIF"</span>, <span class="st">"BIF"</span><span class="op">)</span>,</span>
+<span>          extwin <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="examples_files/figure-html/unnamed-chunk-5-1.png" width="700"></p>
+<p>In this modus the output looks slightly different than before. The
+upper left segment is still composed of the person parameter histogram
+as well as the TIF and SE. However, because only a subset of items was
+used, dashed lines indicate the TIF and SE of only the selected items.
+The lower left segment now shows the different functions for item “Q6”.
+The top right segment shows the barplot of this item, while the lower
+right segment displays the legends of the respective functions. Of
+course, every argument we used before can also be used in this
+modus.</p>
+</div>
+  </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
+    </nav></aside>
 </div>
 
 

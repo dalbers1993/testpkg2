@@ -22,7 +22,7 @@ The PIccc is a modified version of the classical Person-Item Map (also called Wr
 the person parameter distribution is contrasted with the item parameters. However, the item parameters are only shown as simple dots. Furthermore, it 
 does not provide any information for models involving discrimination, guessing, or laziness parameters. The `plotPIccc` function overcomes these restrictions 
 in several aspects. In its core the `plotPIccc` function shows the Person-Item confrontation using category characteristic curves (CCC, hence the name PIccc
-for the diagram) but also many other functions, that can help visualize different aspects of the IRT model
+for the diagram) but also many other functions, that can help visualize different aspects of the IRT model.
 
 ## Why RMX?
 
@@ -30,7 +30,7 @@ for the diagram) but also many other functions, that can help visualize differen
 * flexible selection of items and dimensions
 * flexible arrangement of items accoding to characteristics other than difficulty
 * various graphical options
-* supports all major IRT packages of R (`mirt`, `eRm`, `ltm`, `TAM` and `psychotools`)
+* support of all major IRT packages of R (`mirt`, `eRm`, `ltm`, `TAM` and `psychotools`)
 
 
 

@@ -25,5 +25,5 @@ navbar:
         target: _blank
     changelog:
       text: Changelog
-      href: articles/examples.html
+      href: NEWS.md
 

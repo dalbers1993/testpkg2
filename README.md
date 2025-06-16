@@ -64,7 +64,6 @@ Check out the <a href="https://dalbers1993.github.io/testpkg2/articles/examples.
 <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> gallery </a> for a demonstration of most features of the `plotPIccc`
 function in every supported package.
 
-check out [Getting started](articles/examples.html)
 
 ```r
 library(RMX)

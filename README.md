@@ -50,12 +50,21 @@ Additionally you can plot:
 * the SE of the selected items (`sSE=TRUE`)
 * the kernel density estimate (`dens=TRUE`)
 
+## Installation
+
+You can install the latest release from <a href="https://cran.r-project.org/web/packages/RMX/index.html"> CRAN </a>:
+
+```r
+install.packages("RMX")
+```
 
 ## Usage
 
 Check out the <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> examples </a> for a more detailed description or go to the
 <a href="https://dalbers1993.github.io/testpkg2/articles/examples.html"> gallery </a> for a demonstration of most features of the `plotPIccc`
 function in every supported package.
+
+check out <a href="articles/examples.html"> tjos </a>
 
 ```r
 library(RMX)
